@@ -8,6 +8,7 @@
 </head>
 <body>
 <h1> HI!! THIS IS INDEX.jsp</h1>
+<h1> ANIMAL_F</h1>
 
 
 </body>
