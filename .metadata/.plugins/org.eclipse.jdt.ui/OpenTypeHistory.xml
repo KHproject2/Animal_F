@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
+<<<<<<< HEAD
+<typeInfo handle="=Animal_F/C:\/Java\/dk1.8.0_131\/jre\/lib\/rt.jar&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1493602515955"/>
+=======
 <typeInfo handle="=Animal_F/C:\/Java\/jdk1.8.0_131\/jre\/lib\/rt.jar&lt;java.io(Serializable.class[Serializable" modifiers="1537" timestamp="1493602515114"/>
+>>>>>>> 2224a47deba02449e3e052c817d830be943efb46
 </typeInfoHistroy>

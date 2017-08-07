@@ -648,3 +648,8 @@
 0:0:0:0:0:0:0:1 - - [07/Aug/2017:14:46:03 +0900] "GET /Animal_F/main/main.jsp HTTP/1.1" 200 287
 0:0:0:0:0:0:0:1 - - [07/Aug/2017:14:46:21 +0900] "GET /Animal_F/main/index.jsp HTTP/1.1" 200 2305
 0:0:0:0:0:0:0:1 - - [07/Aug/2017:14:46:21 +0900] "GET /Animal_F/main/main.jsp HTTP/1.1" 200 287
+0:0:0:0:0:0:0:1 - - [07/Aug/2017:15:00:18 +0900] "GET /Animal_F/main/index.jsp HTTP/1.1" 200 2305
+0:0:0:0:0:0:0:1 - - [07/Aug/2017:15:00:18 +0900] "GET /Animal_F/main/image/mainlogo.PNG HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Aug/2017:15:00:18 +0900] "GET /Animal_F/main/image/sidebar.PNG HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Aug/2017:15:00:18 +0900] "GET /Animal_F/board/image/line.PNG HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Aug/2017:15:00:18 +0900] "GET /Animal_F/main/main.jsp HTTP/1.1" 200 287
