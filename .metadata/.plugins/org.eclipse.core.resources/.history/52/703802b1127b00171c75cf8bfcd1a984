@@ -1,0 +1,60 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>자유게시판</title>
+<!-- 합쳐지고 최소화된 최신 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div class="row">
+	<div class="col-md-2">
+	hihi
+	</div>
+	
+	<div class="col-md-8">
+<table class="table table-hover" width="100%" border="1" height="100%">	
+	<tr>
+		<th width="10%">No</th>
+		<th width="15%">사진</th>
+		<th width="40%">제목</th>
+		<th width="15%">작성자</th>
+		<th width="10%">날짜</th>
+		<th width="10%">조회</th>
+	</tr>
+	
+	<tr>
+		<td>3748</td>
+		<td>
+			<a href="detail.jsp"><img src="https://file.namu.moe/file/7887c8260196592eb917ca4b0bf653996c16576d0da8ae5ce2376eb8172e9ae3"
+			width="5%" height="5%"></a>
+			
+			</td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		<td> </td>
+		
+	
+	</tr>
+</table>
+
+</div>
+
+<div class="col-md-2">
+	byebye
+	</div>
+	
+</div>
+</body>
+</html>

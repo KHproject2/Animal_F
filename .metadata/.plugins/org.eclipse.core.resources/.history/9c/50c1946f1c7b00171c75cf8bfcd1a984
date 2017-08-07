@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<html>
+  <head>
+    <title>
+      iFrame예제
+    </title>
+  </head>
+  <body>
+    <table width='800px' border='0' cellspacing='1' cellpadding='1' bgcolor='#F0F0F0' align='center'>
+      <tr bgcolor='#BDDD7D'>
+        <td width='200' align='center'>
+          <a href='doc1.html' target='view'>찾습니다</a>
+        </td>
+        <td width='200' align='center'>
+          <a href='doc2.html' target='view'>보호중입니다</a>
+        </td>
+        <td width='200' align='center'>
+          <a href='doc3.html' target='view'>알바</a>
+        </td>
+        <td width='200' align='center'>
+          <a href='board/freeboard.jsp' target='view'>알바</a>
+        </td>
+      </tr>
+    </table>
+    
+    <table width='800px' border='0' cellspacing='1' cellpadding='1' bgcolor='#DFDFDF' align='center'>
+      <tr>
+        <td>
+          <iframe width='600px' height='400px' frameborder='yes' scrolling='auto' src='main.jsp' 
+               marginwidth='15px' marginheight='15px' name='view' hspace='0px' vspace='0px' />
+        </td>
+      </tr>
+    </table>
+  </body>	
+</html>
