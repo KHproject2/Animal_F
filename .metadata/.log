@@ -1169,3 +1169,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jface.text 2 0 2017-08-07 12:53:30.368
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.wst.server.discovery 1 0 2017-08-07 13:56:28.170
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
