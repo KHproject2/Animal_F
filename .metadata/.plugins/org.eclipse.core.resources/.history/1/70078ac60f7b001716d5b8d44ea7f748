@@ -19,7 +19,6 @@ public class saveDto implements Serializable {
 	private String content;		// 게시글 내용
 	private String img_name;	// 게시글 첨부이미지 이름
 	private String wdate;		// 게시글 작성일
-	private int readcount;		// 조회수
 	private int seq;			// 게시글 고유번호
 	private int del;			// 게시글 삭제 여부
 
