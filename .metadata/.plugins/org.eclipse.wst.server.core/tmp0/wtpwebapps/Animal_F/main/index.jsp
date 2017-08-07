@@ -13,10 +13,10 @@
           <a href='doc1.html' target='view'>찾습니다</a>
         </td>
         <td width='200' align='center'>
-          <a href='doc2.html' target='view'>보호중입니다</a>
+          <a href='../save/saveboard.jsp' target='view'>보호중입니다</a>
         </td>
         <td width='200' align='center'>
-          <a href='doc3.html' target='view'>알바</a>
+          <a href='#' target='view'>알바</a>
         </td>
         <td width='200' align='center'>
           <a href='../board/freeboard.jsp' target='view'>자유게시판</a>
