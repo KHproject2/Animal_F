@@ -18,13 +18,13 @@ import java.io.Serializable;
 		SEQ NUMBER(8) PRIMARY KEY,
 		ID VARCHAR2(50) NOT NULL,
 		NAME VARCHAR2(50) NOT NULL,
-		COMMENT VARCHAR2(2000),
+		COMMENT VARCHAR2(2000) NOT NULL,
 		PNUM NUMBER(8) NOT NULL
 	)
 
 
 	// 외래키 설정
-	ALTER TABLE FREEBOARD ADD CONSTRAINT FK_FBCOMMENT_PNUM
+	ALTER TABLE FBCOMMENT ADD CONSTRAINT FK_FBCOMMENT_PNUM
 	FOREIGN KEY (PNUM) REFERENCES FREEBOARD (SEQ);
 	
 	
@@ -35,6 +35,8 @@ import java.io.Serializable;
  */
 public class fbcommentDto implements Serializable {
 	
+	
+	private static final long serialVersionUID = 509709531537187187L;
 	int seq;			// 댓글 고유번호
 	String id;			// 작성자 아이디
 	String name;		// 작성자 이름
@@ -59,6 +61,64 @@ public class fbcommentDto implements Serializable {
 		this.comment = comment;
 		this.pnum = pnum;
 	}
+
+
+	public int getSeq() {
+		return seq;
+	}
+
+
+	public void setSeq(int seq) {
+		this.seq = seq;
+	}
+
+
+	public String getId() {
+		return id;
+	}
+
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public String getComment() {
+		return comment;
+	}
+
+
+	public void setComment(String comment) {
+		this.comment = comment;
+	}
+
+
+	public int getPnum() {
+		return pnum;
+	}
+
+
+	public void setPnum(int pnum) {
+		this.pnum = pnum;
+	}
+
+
+	@Override
+	public String toString() {
+		return "fbcommentDto [seq=" + seq + ", id=" + id + ", name=" + name + ", comment=" + comment + ", pnum=" + pnum
+				+ "]";
+	}
+	
 	
 	
 }

@@ -21,6 +21,7 @@ CREATE TABLE FINDANIMAL(
 	L_PLACE1 VARCHAR2(200) NOT NULL,
 	L_PLACE2 VARCHAR2(200) NOT NULL,
 	GENDER VARCHAR2(10) NOT NULL,
+
 )
 
 DROP SEQUENCE SEQ_FIND;
@@ -37,6 +38,8 @@ import java.io.Serializable;
 
 public class findanimalDto implements Serializable {
 	
+	
+	private static final long serialVersionUID = -1273516979252823590L;
 	private int seq;			// sequence 번호
 	private int readcount;		// 조회수
 	
