@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <temp-directories>
-<<<<<<< HEAD
-  <temp-directory age="0" key="Tomcat v9.0 Server at localhost" path="tmp0" recycle="false"/>
-=======
-  <temp-directory age="0" key="Tomcat v8.5 Server at localhost" path="tmp1" recycle="false"/>
->>>>>>> 00f65e6d149c81c2c84da8f7ce67a820ab27e3f8
+  <temp-directory age="0" key="Tomcat v9.0 Server at localhost" path="tmp3" recycle="false"/>
 </temp-directories>

@@ -1,0 +1,8 @@
+127.0.0.1 - - [08/Aug/2017:14:53:45 +0900] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:14:53:47 +0900] "GET /Animal_F/main/index.jsp HTTP/1.1" 200 2730
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:14:53:47 +0900] "GET /Animal_F/main/js/jquery.cookie.js HTTP/1.1" 404 1060
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:14:53:47 +0900] "GET /Animal_F/main/image/mainlogo.PNG HTTP/1.1" 200 36493
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:14:53:47 +0900] "GET /Animal_F/board/image/line.PNG HTTP/1.1" 200 492
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:14:53:48 +0900] "GET /Animal_F/main/js/jquery.cookie.js HTTP/1.1" 404 1060
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:14:53:49 +0900] "GET /Animal_F/main/main.jsp HTTP/1.1" 200 950
+0:0:0:0:0:0:0:1 - - [08/Aug/2017:14:53:49 +0900] "GET /Animal_F/main/image/sidebar.PNG HTTP/1.1" 200 119449

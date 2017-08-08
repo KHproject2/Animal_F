@@ -1,7 +1,0 @@
-package findanimal;
-
-import java.io.Serializable;
-
-public class findanimalDto implements Serializable {
-
-}
