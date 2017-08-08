@@ -7524,9 +7524,15 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 !ENTRY org.eclipse.jface.text 2 0 2017-08-08 11:10:23.093
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-08-08 11:56:21.066
 !MESSAGE Removing obsolete files from server...
 !SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2017-08-08 11:56:21.066
+=======
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-08-08 12:33:21.616
+!MESSAGE Removing obsolete files from server...
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2017-08-08 12:33:21.616
+>>>>>>> 2e2d39d4d2476ffa3ec2db54843e92e49f052990
 !MESSAGE Could not clean server of obsolete files: 요소 콘텐츠는 올바른 형식의 문자 데이터 또는 마크업으로 구성되어야 합니다.
 !STACK 0
 org.xml.sax.SAXParseException; lineNumber: 64; columnNumber: 2; 요소 콘텐츠는 올바른 형식의 문자 데이터 또는 마크업으로 구성되어야 합니다.
@@ -7543,8 +7549,46 @@ org.xml.sax.SAXParseException; lineNumber: 64; columnNumber: 2; 요소 콘텐츠
 	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.equinox.event 4 0 2017-08-08 11:58:06.307
 !MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/ui/UIElement/visible/SET] {ChangedElement=org.eclipse.e4.ui.model.application.ui.menu.impl.MenuSeparatorImpl@5be612de (elementId: additions, tags: [org.eclipse.jface.action.GroupMarker.GroupMarker(String)], contributorURI: null) (widget: null, renderer: org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer@483f19c0, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (label: null, iconURI: null, tooltip: null, mnemonics: null), org.eclipse.e4.data={ChangedElement=org.eclipse.e4.ui.model.application.ui.menu.impl.MenuSeparatorImpl@5be612de (elementId: additions, tags: [org.eclipse.jface.action.GroupMarker.GroupMarker(String)], contributorURI: null) (widget: null, renderer: org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer@483f19c0, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (label: null, iconURI: null, tooltip: null, mnemonics: null), AttName=visible, EventType=SET, OldValue=false, Widget=null, NewValue=true}, AttName=visible, EventType=SET, OldValue=false, Widget=null, NewValue=true} to handler org.eclipse.e4.ui.services.internal.events.UIEventHandler@69f9ab8a
+=======
+!ENTRY org.eclipse.wst.server.discovery 1 0 2017-08-08 12:33:34.839
+!MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-08 12:36:18.239
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-08 12:36:18.244
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-08 12:36:18.280
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-08 12:36:18.283
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-08 12:37:43.949
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-08 12:37:43.955
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-08 13:30:41.185
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-08 13:30:41.187
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-08 13:32:30.478
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-08 13:32:30.486
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.equinox.event 4 0 2017-08-08 13:33:45.791
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/ui/UIElement/visible/SET] {ChangedElement=org.eclipse.e4.ui.model.application.ui.menu.impl.MenuSeparatorImpl@726535d5 (elementId: additions, tags: [org.eclipse.jface.action.GroupMarker.GroupMarker(String)], contributorURI: null) (widget: null, renderer: org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer@7e86ff3b, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (label: null, iconURI: null, tooltip: null, mnemonics: null), org.eclipse.e4.data={ChangedElement=org.eclipse.e4.ui.model.application.ui.menu.impl.MenuSeparatorImpl@726535d5 (elementId: additions, tags: [org.eclipse.jface.action.GroupMarker.GroupMarker(String)], contributorURI: null) (widget: null, renderer: org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer@7e86ff3b, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (label: null, iconURI: null, tooltip: null, mnemonics: null), AttName=visible, EventType=SET, OldValue=false, Widget=null, NewValue=true}, AttName=visible, EventType=SET, OldValue=false, Widget=null, NewValue=true} to handler org.eclipse.e4.ui.services.internal.events.UIEventHandler@47de73c8
+>>>>>>> 2e2d39d4d2476ffa3ec2db54843e92e49f052990
 !STACK 0
 org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: E:\Git\mingw64\share\git\git-for-windows.ico (지정된 경로를 찾을 수 없습니다))
 	at org.eclipse.swt.SWT.error(SWT.java:4533)
@@ -7633,6 +7677,7 @@ Caused by: java.io.FileNotFoundException: E:\Git\mingw64\share\git\git-for-windo
 	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:172)
 	... 75 more
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.ltk.core.refactoring 4 10000 2017-08-08 11:58:17.453
 !MESSAGE Internal Error
 !STACK 1
@@ -7676,10 +7721,59 @@ org.eclipse.core.runtime.CoreException: 문서에서 루트 요소 앞에 오는
 	at org.eclipse.jface.viewers.ViewerDropAdapter.drop(ViewerDropAdapter.java:254)
 	at org.eclipse.ui.part.PluginDropAdapter.drop(PluginDropAdapter.java:66)
 	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:91)
+=======
+!ENTRY org.eclipse.equinox.event 4 0 2017-08-08 13:40:40.924
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/ui/UIElement/visible/SET] {ChangedElement=org.eclipse.e4.ui.model.application.ui.menu.impl.MenuSeparatorImpl@7b91c821 (elementId: additions, tags: [org.eclipse.jface.action.GroupMarker.GroupMarker(String)], contributorURI: null) (widget: null, renderer: org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer@7e86ff3b, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (label: null, iconURI: null, tooltip: null, mnemonics: null), org.eclipse.e4.data={ChangedElement=org.eclipse.e4.ui.model.application.ui.menu.impl.MenuSeparatorImpl@7b91c821 (elementId: additions, tags: [org.eclipse.jface.action.GroupMarker.GroupMarker(String)], contributorURI: null) (widget: null, renderer: org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer@7e86ff3b, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (label: null, iconURI: null, tooltip: null, mnemonics: null), AttName=visible, EventType=SET, OldValue=false, Widget=null, NewValue=true}, AttName=visible, EventType=SET, OldValue=false, Widget=null, NewValue=true} to handler org.eclipse.e4.ui.services.internal.events.UIEventHandler@47de73c8
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: E:\Git\mingw64\share\git\git-for-windows.ico (지정된 경로를 찾을 수 없습니다))
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:175)
+	at org.eclipse.tm.terminal.view.ui.local.showin.ExternalExecutablesManager.loadImage(ExternalExecutablesManager.java:264)
+	at org.eclipse.tm.terminal.view.ui.local.showin.DynamicContributionItems.getContributionItems(DynamicContributionItems.java:77)
+	at org.eclipse.ui.actions.CompoundContributionItem.getContributionItemsToFill(CompoundContributionItem.java:86)
+	at org.eclipse.ui.actions.CompoundContributionItem.fill(CompoundContributionItem.java:59)
+	at org.eclipse.ui.internal.menus.DynamicMenuContributionItem.fill(DynamicMenuContributionItem.java:147)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:728)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:810)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:669)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1185)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.access$3(MenuManagerRenderer.java:1180)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer$3.handleEvent(MenuManagerRenderer.java:247)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4821)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:94)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:345)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:110)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:189)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:200)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:232)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:114)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:92)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:471)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+>>>>>>> 2e2d39d4d2476ffa3ec2db54843e92e49f052990
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+<<<<<<< HEAD
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
 	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:802)
 	at org.eclipse.swt.dnd.DropTarget.Drop(DropTarget.java:472)
@@ -7695,6 +7789,19 @@ org.eclipse.core.runtime.CoreException: 문서에서 루트 요소 앞에 오는
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
 	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+=======
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5160)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5110)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4277)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3818)
+>>>>>>> 2e2d39d4d2476ffa3ec2db54843e92e49f052990
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
@@ -7716,6 +7823,47 @@ org.eclipse.core.runtime.CoreException: 문서에서 루트 요소 앞에 오는
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+<<<<<<< HEAD
+=======
+Caused by: java.io.FileNotFoundException: E:\Git\mingw64\share\git\git-for-windows.ico (지정된 경로를 찾을 수 없습니다)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:172)
+	... 75 more
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10000 2017-08-08 13:41:05.865
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: 문서에서 루트 요소 앞에 오는 마크업은 올바른 형식이어야 합니다.
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.createCoreException(RefactoringHistoryManager.java:144)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:867)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.processHistoryNotification(RefactoringHistorySerializer.java:111)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistorySerializer.historyNotification(RefactoringHistorySerializer.java:73)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$5.run(RefactoringHistoryService.java:589)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.fireRefactoringHistoryEvent(RefactoringHistoryService.java:580)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.performHistoryNotification(RefactoringHistoryService.java:931)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.access$0(RefactoringHistoryService.java:914)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$2.historyNotification(RefactoringHistoryService.java:367)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory$2.run(DefaultOperationHistory.java:870)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyListeners(DefaultOperationHistory.java:859)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.notifyDone(DefaultOperationHistory.java:925)
+	at org.eclipse.core.commands.operations.DefaultOperationHistory.closeOperation(DefaultOperationHistory.java:1219)
+	at org.eclipse.ltk.internal.core.refactoring.UndoManager2.changePerformed(UndoManager2.java:164)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:264)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+>>>>>>> 2e2d39d4d2476ffa3ec2db54843e92e49f052990
 Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; 문서에서 루트 요소 앞에 오는 마크업은 올바른 형식이어야 합니다.
 	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
 	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
@@ -7732,8 +7880,13 @@ Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; 문서
 	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
 	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.getCachedDocument(RefactoringHistoryManager.java:912)
 	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryManager.addRefactoringDescriptor(RefactoringHistoryManager.java:825)
+<<<<<<< HEAD
 	... 77 more
 !SUBENTRY 1 org.eclipse.ltk.core.refactoring 4 10006 2017-08-08 11:58:17.454
+=======
+	... 24 more
+!SUBENTRY 1 org.eclipse.ltk.core.refactoring 4 10006 2017-08-08 13:41:05.867
+>>>>>>> 2e2d39d4d2476ffa3ec2db54843e92e49f052990
 !MESSAGE 문서에서 루트 요소 앞에 오는 마크업은 올바른 형식이어야 합니다.
 !STACK 0
 org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; 문서에서 루트 요소 앞에 오는 마크업은 올바른 형식이어야 합니다.
@@ -7770,6 +7923,7 @@ org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; 문서에서 루�
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
 	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+<<<<<<< HEAD
 	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:221)
 	at org.eclipse.ltk.core.refactoring.PerformRefactoringOperation.run(PerformRefactoringOperation.java:134)
 	at org.eclipse.ui.navigator.resources.ResourceDropAdapterAssistant$2.run(ResourceDropAdapterAssistant.java:498)
@@ -7789,10 +7943,66 @@ org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; 문서에서 루�
 	at org.eclipse.jface.viewers.ViewerDropAdapter.drop(ViewerDropAdapter.java:254)
 	at org.eclipse.ui.part.PluginDropAdapter.drop(PluginDropAdapter.java:66)
 	at org.eclipse.swt.dnd.DNDListener.handleEvent(DNDListener.java:91)
+=======
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY org.eclipse.equinox.event 4 0 2017-08-08 13:47:33.042
+!MESSAGE Exception while dispatching event org.osgi.service.event.Event [topic=org/eclipse/e4/ui/model/ui/UIElement/visible/SET] {ChangedElement=org.eclipse.e4.ui.model.application.ui.menu.impl.MenuSeparatorImpl@7d1e7ff5 (elementId: additions, tags: [org.eclipse.jface.action.GroupMarker.GroupMarker(String)], contributorURI: null) (widget: null, renderer: org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer@7e86ff3b, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (label: null, iconURI: null, tooltip: null, mnemonics: null), org.eclipse.e4.data={ChangedElement=org.eclipse.e4.ui.model.application.ui.menu.impl.MenuSeparatorImpl@7d1e7ff5 (elementId: additions, tags: [org.eclipse.jface.action.GroupMarker.GroupMarker(String)], contributorURI: null) (widget: null, renderer: org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer@7e86ff3b, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (label: null, iconURI: null, tooltip: null, mnemonics: null), AttName=visible, EventType=SET, OldValue=false, Widget=null, NewValue=true}, AttName=visible, EventType=SET, OldValue=false, Widget=null, NewValue=true} to handler org.eclipse.e4.ui.services.internal.events.UIEventHandler@47de73c8
+!STACK 0
+org.eclipse.swt.SWTException: i/o error (java.io.FileNotFoundException: E:\Git\mingw64\share\git\git-for-windows.ico (지정된 경로를 찾을 수 없습니다))
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:175)
+	at org.eclipse.tm.terminal.view.ui.local.showin.ExternalExecutablesManager.loadImage(ExternalExecutablesManager.java:264)
+	at org.eclipse.tm.terminal.view.ui.local.showin.DynamicContributionItems.getContributionItems(DynamicContributionItems.java:77)
+	at org.eclipse.ui.actions.CompoundContributionItem.getContributionItemsToFill(CompoundContributionItem.java:86)
+	at org.eclipse.ui.actions.CompoundContributionItem.fill(CompoundContributionItem.java:59)
+	at org.eclipse.ui.internal.menus.DynamicMenuContributionItem.fill(DynamicMenuContributionItem.java:147)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:728)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:810)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:669)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1185)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.access$3(MenuManagerRenderer.java:1180)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer$3.handleEvent(MenuManagerRenderer.java:247)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4821)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:94)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:345)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:110)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:189)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:200)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:232)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:114)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:92)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:471)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+>>>>>>> 2e2d39d4d2476ffa3ec2db54843e92e49f052990
 	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
 	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4418)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+<<<<<<< HEAD
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
 	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:802)
 	at org.eclipse.swt.dnd.DropTarget.Drop(DropTarget.java:472)
@@ -7808,6 +8018,19 @@ org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; 문서에서 루�
 	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
 	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4236)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3824)
+=======
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5160)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4828)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5110)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4277)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3818)
+>>>>>>> 2e2d39d4d2476ffa3ec2db54843e92e49f052990
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
@@ -7829,6 +8052,7 @@ org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; 문서에서 루�
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+<<<<<<< HEAD
 
 !ENTRY org.eclipse.ui 2 2 2017-08-08 12:39:43.079
 !MESSAGE org.eclipse.ui.views.ContentOutline: Deprecated relationship "fast" should be converted to "stack".
@@ -7841,6 +8065,21 @@ org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 2; 문서에서 루�
 !STACK 0
 org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementException: IStructuredDocumentRegion management failed.
 	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2200)
+=======
+Caused by: java.io.FileNotFoundException: E:\Git\mingw64\share\git\git-for-windows.ico (지정된 경로를 찾을 수 없습니다)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at org.eclipse.swt.graphics.ImageLoader.load(ImageLoader.java:172)
+	... 75 more
+
+!ENTRY org.eclipse.wst.xml.core 4 4 2017-08-08 14:22:04.357
+!MESSAGE IStructuredDocumentRegion management failed.
+!STACK 0
+org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementException: IStructuredDocumentRegion management failed.
+	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.removeStructuredDocumentRegion(XMLModelParser.java:2222)
+>>>>>>> 2e2d39d4d2476ffa3ec2db54843e92e49f052990
 	at org.eclipse.wst.xml.core.internal.document.XMLModelParser.replaceStructuredDocumentRegions(XMLModelParser.java:2339)
 	at org.eclipse.wst.xml.core.internal.document.DOMModelImpl.nodesReplaced(DOMModelImpl.java:737)
 	at org.eclipse.wst.sse.core.internal.text.BasicStructuredDocument._fireEvent(BasicStructuredDocument.java:600)
@@ -7866,7 +8105,11 @@ org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementExc
 	at org.eclipse.jface.text.DefaultDocumentAdapter.replaceTextRange(DefaultDocumentAdapter.java:233)
 	at org.eclipse.swt.custom.StyledText.modifyContent(StyledText.java:7374)
 	at org.eclipse.swt.custom.StyledText.sendKeyEvent(StyledText.java:8222)
+<<<<<<< HEAD
 	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:2334)
+=======
+	at org.eclipse.swt.custom.StyledText.doBackspace(StyledText.java:2310)
+>>>>>>> 2e2d39d4d2476ffa3ec2db54843e92e49f052990
 	at org.eclipse.swt.custom.StyledText.invokeAction(StyledText.java:7164)
 	at org.eclipse.swt.custom.StyledText.handleKey(StyledText.java:6022)
 	at org.eclipse.swt.custom.StyledText.handleKeyDown(StyledText.java:6049)
@@ -7908,3 +8151,22 @@ org.eclipse.wst.xml.core.internal.document.StructuredDocumentRegionManagementExc
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2017-08-08 14:49:09.953
+!MESSAGE Removing obsolete files from server...
+!SUBENTRY 1 org.eclipse.jst.server.tomcat.core 4 0 2017-08-08 14:49:09.953
+!MESSAGE Could not clean server of obsolete files: 요소 콘텐츠는 올바른 형식의 문자 데이터 또는 마크업으로 구성되어야 합니다.
+!STACK 0
+org.xml.sax.SAXParseException; lineNumber: 63; columnNumber: 2; 요소 콘텐츠는 올바른 형식의 문자 데이터 또는 마크업으로 구성되어야 합니다.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at org.eclipse.jst.server.tomcat.core.internal.xml.Factory.loadDocument(Factory.java:88)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.getCatalinaServerInstance(TomcatVersionHelper.java:217)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatVersionHelper.cleanupCatalinaServer(TomcatVersionHelper.java:304)
+	at org.eclipse.jst.server.tomcat.core.internal.Tomcat85Configuration.cleanupServer(Tomcat85Configuration.java:701)
+	at org.eclipse.jst.server.tomcat.core.internal.TomcatServerBehaviour.publishServer(TomcatServerBehaviour.java:233)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:975)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)

@@ -60,7 +60,11 @@
          APR (HTTP/AJP) Connector: /docs/apr.html
          Define a non-SSL/TLS HTTP/1.1 Connector on port 8080
     -->
+<<<<<<< HEAD
     <Connector connectionTimeout="20000" port="9999" protocol="HTTP/1.1" redirectPort="8443"/>
+=======
+    <Connector connectionTimeout="20000" port="8090" protocol="HTTP/1.1" redirectPort="8443"/>
+>>>>>>> 2e2d39d4d2476ffa3ec2db54843e92e49f052990
     <!-- A "Connector" using the shared thread pool-->
     <!--
     <Connector executor="tomcatThreadPool"
@@ -149,7 +153,11 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
+<<<<<<< HEAD
       <Context docBase="E:\Animal_F\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="E:\Animal_F\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\Animal_F" path="/Animal_F" reloadable="true" source="org.eclipse.jst.jee.server:Animal_F"/></Host>
+=======
+      <Context docBase="E:\animal_F\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="E:\animal_F\.metadata\.plugins\org.eclipse.wst.server.core\tmp2\wtpwebapps\Animal_F" path="/Animal_F" reloadable="true" source="org.eclipse.jst.jee.server:Animal_F"/></Host>
+>>>>>>> 2e2d39d4d2476ffa3ec2db54843e92e49f052990
     </Engine>
   </Service>
 </Server>

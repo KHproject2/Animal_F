@@ -43,7 +43,7 @@ start with 1 increment by 1;
 
 public class saveDto implements Serializable {
 
-	
+	  
 	private static final long serialVersionUID = -1425159551295094841L;
 	private String user_name;	// 등록 이름
 	private String user_id;		// 등록 아이디
