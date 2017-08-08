@@ -1,0 +1,7 @@
+package freeboard;
+
+import java.io.Serializable;
+
+public class freeboardDto implements Serializable {
+
+}
