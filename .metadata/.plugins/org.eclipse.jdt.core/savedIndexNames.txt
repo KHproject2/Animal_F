@@ -1,50 +1,4 @@
-<<<<<<< HEAD
 INDEX VERSION 1.130+E:\animal_F\.metadata\.plugins\org.eclipse.jdt.core
-2737304181.index
-1704539054.index
-651213780.index
-869797926.index
-4255343693.index
-3928381071.index
-430206843.index
-1424304742.index
-29255339.index
-1150535993.index
-3711028383.index
-3450260963.index
-3778076790.index
-2636439754.index
-946820117.index
-4148202263.index
-420137085.index
-2691669127.index
-2202849666.index
-841643256.index
-112007526.index
-3197357505.index
-2364668135.index
-3805407580.index
-1437947672.index
-1058912364.index
-206170414.index
-531337640.index
-1664957015.index
-2344863855.index
-3883654712.index
-2111534073.index
-2065832802.index
-3928815815.index
-3329774428.index
-4281858913.index
-556811416.index
-171559271.index
-2855384693.index
-634760469.index
-4072422212.index
-1973404402.index
-2333301791.index
-=======
-INDEX VERSION 1.130+E:\Animal_F\.metadata\.plugins\org.eclipse.jdt.core
 1664957015.index
 29255339.index
 1150535993.index
@@ -62,10 +16,10 @@ INDEX VERSION 1.130+E:\Animal_F\.metadata\.plugins\org.eclipse.jdt.core
 3928381071.index
 206170414.index
 1648605557.index
-1973404402.index
-556811416.index
-3883654712.index
 1058912364.index
+1973404402.index
+3883654712.index
+556811416.index
 1704539054.index
 3778076790.index
 634760469.index
@@ -89,4 +43,3 @@ INDEX VERSION 1.130+E:\Animal_F\.metadata\.plugins\org.eclipse.jdt.core
 3805407580.index
 2202849666.index
 2065832802.index
->>>>>>> 7bc28deec52c77b9d16e02b85d785aee3c5cf365
