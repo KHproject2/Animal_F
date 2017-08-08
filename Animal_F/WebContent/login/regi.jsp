@@ -1,7 +1,7 @@
-<%@page import="Member.MemberDao"%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -11,12 +11,17 @@
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
 <!-- 우편주소 -->
 <title>Insert title here</title>
+<style type="text/css">
+    *{margin:0;padding:0}
+		html,body{height:100%}`
+		body{display:table;width:100%}
+	</style>
 </head>
 <body>
 	<h1>회원가입</h1>
 	<div align="center">
 		<form action="regiAf.jsp" id="regiform" name="regiform">
-			<table border="1" margin="auto">
+			<table border="1">
 				<tr>
 					<td width="120">이름</td>
 					<td><input type="text" name="name" id="name"
@@ -61,8 +66,8 @@
 				<tr>
 					<td width="120">이메일</td>
 					<td><input type="text" name="email" id="email" width="140"
-						size="15"> <input type="text" name="email2" id="email2"
-						width="140" size="15" disabled value="naver.com"> @
+						size="15">@ <input type="text" name="email2" id="email2"
+						width="140" size="15" disabled value="naver.com"> 
 						<select	id="email_select" name="email_select">
 							<option value="@naver.com">naver.com</option>
 							<option value="@daum.com">daum.com</option>
@@ -106,7 +111,7 @@
 				alert("패스워드 확인을 입력해주세요")
 				$("#pwd2").focus();
 			} else if ($("#email").val() == "") { //이메일 공란
-				alert("패스워드 확인을 입력해주세요");
+				alert("이메일을 입력해주세요");
 				$("#email").focus();
 			} else if ($("#pwd1").val() != $("#pwd2").val()) { //패스워드확인 체크
 				alert("패스워드 가 다릅니다 ");
