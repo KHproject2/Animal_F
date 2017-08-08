@@ -3,9 +3,17 @@ package save;
 import java.io.Serializable;
 
 /*
+// 테이블 삭제
 drop table saveanimal
 cascade constraint;
 
+// 시퀀스 삭제
+drop sequence seq_saveanimal;
+
+// 외래키 삭제
+alter table saveanimal drop constraint fk_saveanimal_id
+
+// 테이블 생성
 create table saveanimal(
 	seq number(8) primary key,
 	del number(1) not null,
@@ -23,6 +31,14 @@ create table saveanimal(
 	animal_kind varchar2(50) not null,
 	animal_gender varchar2(50) not null
 )
+
+// 외래키 설정
+alter table saveanimal add constraint fk_saveanimal_id
+foreign key (id) references a_member (id);
+
+// 시퀀스 생성
+create sequence seq_saveanimal
+start with 1 increment by 1;
 */
 
 public class saveDto implements Serializable {
