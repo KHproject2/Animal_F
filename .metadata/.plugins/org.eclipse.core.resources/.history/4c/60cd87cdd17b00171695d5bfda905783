@@ -1,0 +1,20 @@
+package freeboard;
+
+import java.io.Serializable;
+
+public class freeboardDto implements Serializable {
+	
+	String id;			// 작성자 아이디
+	String name;		// 작성자 이름
+	
+	int seq;			// 글 고유번호
+	String readcount;	// 조회수
+	
+	String imageName;	// 이미지 등록이름
+	String wdate;		// 작성일
+	String title;		// 글제목
+	
+	String content;		// 글 내용
+	String animal_kind;	// 동물 종류
+
+}

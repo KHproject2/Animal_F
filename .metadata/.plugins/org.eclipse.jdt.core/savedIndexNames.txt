@@ -18,7 +18,6 @@ INDEX VERSION 1.130+E:\Animal_F\.metadata\.plugins\org.eclipse.jdt.core
 882865904.index
 3928381071.index
 1058912364.index
-1648605557.index
 3335735710.index
 2081862656.index
 2710998685.index

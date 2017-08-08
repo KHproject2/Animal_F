@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Servers2&apos;" deleteContents="true" description="Delete resource &apos;Servers2&apos;" element1="/Servers2" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1502151077753"/>&#x0A;<refactoring comment="Delete resource &apos;Servers&apos;" deleteContents="true" description="Delete resource &apos;Servers&apos;" element1="/Servers" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1502151081245"/>&#x0A;<refactoring comment="Delete resource &apos;Servers&apos;" deleteContents="false" description="Delete resource &apos;Servers&apos;" element1="/Servers" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1502157264245"/>
+=======
+<<<<<<< HEAD
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Servers&apos;" deleteContents="true" description="Delete resource &apos;Servers&apos;" element1="/Servers" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1502151131472"/>
+=======
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;Servers2&apos;" deleteContents="true" description="Delete resource &apos;Servers2&apos;" element1="/Servers2" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1502151077753"/>&#x0A;<refactoring comment="Delete resource &apos;Servers&apos;" deleteContents="true" description="Delete resource &apos;Servers&apos;" element1="/Servers" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1502151081245"/>
+>>>>>>> 1d980218f155e5ae45306e11ced10c69172e98ad
+>>>>>>> d38793cd741c5d0da3243fc1f4d0434e05925bb0
+</session>
