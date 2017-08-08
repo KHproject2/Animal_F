@@ -21,11 +21,7 @@
 							<a href="#">회원가입</a>
 						 </td>
 					</tr>
-				
-				
 				</table>
-			
-			
 			 </td>
 		</tr>
       <tr bgcolor='#BDDD7D'>
@@ -82,11 +78,7 @@
     
    	 </table>
    	 </td>
-      </tr>
-    </table>
-    
-   
-    
-    
+     </tr>
+    </table>    
   </body>	
 </html>
