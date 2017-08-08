@@ -41,9 +41,13 @@
 		
 		</script>
 		
-
+		<div id="#container1">
+  <div id ="left">
+  </div>
+  
    
 
+  <div id="center">
 		<div id="header">
 			<table border='1' bgcolor='#F0F0F0' align='center'style="border-collapse: collapse; width: 100%">
 				<tr height="10%">
@@ -106,7 +110,10 @@
 		   			</table>
 		</div>	
  
-
+	</div>
+	
+	<div id ="right">
+  </div>
 	
 	
   </body>	
