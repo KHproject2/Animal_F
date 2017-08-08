@@ -7,6 +7,9 @@
 <body>
 	<table width='800px' border='0' cellspacing='1' cellpadding='1'
 		bgcolor='#F0F0F0' align='center'>
+		<Tr>
+			로그인 회원가입
+		</Tr>
 		<tr bgcolor='#BDDD7D'>
 			<td width='200' align='center'><a href='doc1.html' target='view'>찾습니다</a>
 			</td>

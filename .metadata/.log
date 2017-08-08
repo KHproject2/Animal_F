@@ -2615,3 +2615,15 @@ Caused by: java.io.FileNotFoundException: E:\Git\mingw64\share\git\git-for-windo
 
 !ENTRY org.eclipse.wst.server.discovery 1 0 2017-08-07 12:33:08.295
 !MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-07 12:36:08.620
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-07 12:36:08.622
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-07 12:36:08.667
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-08-07 12:36:08.669
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'

@@ -4,3 +4,5 @@
 0:0:0:0:0:0:0:1 - - [07/Aug/2017:12:33:22 +0900] "GET /favicon.ico HTTP/1.1" 404 1016
 0:0:0:0:0:0:0:1 - - [07/Aug/2017:12:33:23 +0900] "GET /Animal_F/board/freeboard.jsp HTTP/1.1" 200 964
 0:0:0:0:0:0:0:1 - - [07/Aug/2017:12:33:25 +0900] "GET /Animal_F/main/main.jsp HTTP/1.1" 200 287
+0:0:0:0:0:0:0:1 - - [07/Aug/2017:12:36:28 +0900] "GET /Animal_F/main/index.jsp HTTP/1.1" 200 1000
+0:0:0:0:0:0:0:1 - - [07/Aug/2017:12:36:28 +0900] "GET /Animal_F/main/main.jsp HTTP/1.1" 200 287
