@@ -18,7 +18,7 @@ import java.io.Serializable;
 		SEQ NUMBER(8) PRIMARY KEY,
 		ID VARCHAR2(50) NOT NULL,
 		NAME VARCHAR2(50) NOT NULL,
-		COMMENT VARCHAR2(2000) NOT NULL,
+		SAVECOMMENT VARCHAR2(2000) NOT NULL,
 		PNUM NUMBER(8) NOT NULL
 	)
 	
@@ -36,8 +36,6 @@ import java.io.Serializable;
 
 public class savecommentDto implements Serializable {
 
-	
-	private static final long serialVersionUID = -1943906213301755513L;
 	int seq;			// 댓글 고유번호
 	String id;			// 작성자 아이디
 	String name;		// 작성자 이름
