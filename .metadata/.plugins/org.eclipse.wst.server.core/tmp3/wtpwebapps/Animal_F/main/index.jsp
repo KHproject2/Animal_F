@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
   <head>
     <title>
@@ -15,7 +16,6 @@
 		#header,#footer{display:table-row;width:100%;height:1px}
 		#container{display:table-row;width:100%;height:100%}
 
-		body{font-size:3em;color:#FFF}
 
 		
 		#header,#footer{background-color:#F00}
@@ -35,6 +35,12 @@
 					$("#container").load("../board/freeboard.jsp");
 				});
 				
+				
+				$("#join").click(function () {
+					$("#container").load("../login/regi.jsp");
+				});
+			
+				
 			});
 
 	         
@@ -44,7 +50,7 @@
 
   
 	<div id="header">
-		<table border='1' bgcolor='#F0F0F0' align='center'style="border-collapse: collapse; width: 100%">
+		<table border='1' bgcolor='#F0F0F0' align='center' style="border-collapse: collapse; width: 100%">
 			<tr height="10%">
 				<td colspan="4">
 					<table style="width: 100%">
@@ -54,7 +60,7 @@
 							<td align="center"><img src="./image/mainlogo.PNG"> </td>
 							<td align="right" valign="top"> <a href="./index.jsp">Home</a>
 								<a href="#">로그인</a>
-								<a href="../login/regi.jsp">회원가입</a>
+								<a id="join">회원가입</a>
 							 </td>
 						</tr>
 					</table>
@@ -72,7 +78,7 @@
 	        </td>
 	        <td width='200' align='center'>
 	         <!--  <a href='../board/freeboard.jsp' target='view'>자유게시판</a> -->
-	        <button type="button" onclick="move()" id="fbmenu">자유게시판</button>
+	        <button type="button" id="fbmenu">자유게시판</button>
 
 	        </td>
 	      </tr>
@@ -83,7 +89,6 @@
 	
 		<div id="container">
 			
-			<%-- <jsp:include page="./main.jsp" flush="false" /> --%>
 				
 		</div>
 		
