@@ -1,0 +1,13 @@
+package findanimal;
+
+import java.io.Serializable;
+
+public class findcommentDto implements Serializable {
+
+	int seq;			// 댓글 고유번호
+	String id;			// 작성자 아이디
+	String name;		// 작성자 이름
+	String comment;		// 작성된 댓글	
+	int pnum;			// 해당하는 게시글 고유번호
+	
+}
