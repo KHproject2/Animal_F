@@ -15,11 +15,10 @@ CREATE TABLE FINDANIMAL(
 	CONTENT VARCHAR2(4000) NOT NULL,
 	A_NAME VARCHAR2(50) NOT NULL,
 	A_KIND VARCHAR2(50) NOT NULL,
-	A_IMG VARCHAR2(200),
+	A_IMG VARCHAR2(200) NOT NULL,
 	MONEY NUMBER(15),
 	L_DATE VARCHAR2(200) NOT NULL,
-	L_PLACE1 VARCHAR2(200) NOT NULL,
-	L_PLACE2 VARCHAR2(200) NOT NULL,
+	L_PALCE VARCHAR2(200) NOT NULL,
 	GENDER VARCHAR2(10) NOT NULL,
 )
 
@@ -62,7 +61,7 @@ public class findanimalDto implements Serializable {
 
 	public findanimalDto(int seq, int readcount, String id, String name, String phone, String wdate, String title,
 			String content, int del, String a_name, String a_kind, String a_img, int money, String l_date,
-			String l_place1, String l_place2, String gender)
+			String l_place, String gender)
 	{
 		this.seq = seq;
 		this.readcount = readcount;
@@ -78,8 +77,7 @@ public class findanimalDto implements Serializable {
 		this.a_img = a_img;
 		this.money = money;
 		this.l_date = l_date;
-		this.l_place1 = l_place1;
-		this.l_place2 = l_place2;
+		this.l_place = l_place;
 		this.gender = gender;
 	}
 
@@ -195,20 +193,12 @@ public class findanimalDto implements Serializable {
 		this.l_date = l_date;
 	}
 
-	public String getL_place1() {
-		return l_place1;
+	public String getL_place() {
+		return l_place;
 	}
 
-	public void setL_place1(String l_place1) {
-		this.l_place1 = l_place1;
-	}
-
-	public String getL_place2() {
-		return l_place2;
-	}
-
-	public void setL_place2(String l_place2) {
-		this.l_place2 = l_place2;
+	public void setL_place(String l_place) {
+		this.l_place = l_place;
 	}
 
 	public String getGender() {
@@ -224,6 +214,6 @@ public class findanimalDto implements Serializable {
 		return "findanimalDto [seq=" + seq + ", readcount=" + readcount + ", id=" + id + ", name=" + name + ", phone="
 				+ phone + ", wdate=" + wdate + ", title=" + title + ", content=" + content + ", del=" + del
 				+ ", a_name=" + a_name + ", a_kind=" + a_kind + ", a_img=" + a_img + ", money=" + money + ", l_date="
-				+ l_date + ", l_place1=" + l_place1 + ", l_place2=" + l_place2 + ", gender=" + gender + "]";
+				+ l_date + ", l_place=" + l_place + ", gender=" + gender + "]";
 	}
 }

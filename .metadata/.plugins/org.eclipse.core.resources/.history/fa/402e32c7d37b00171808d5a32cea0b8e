@@ -15,7 +15,7 @@ CREATE TABLE FINDANIMAL(
 	CONTENT VARCHAR2(4000) NOT NULL,
 	A_NAME VARCHAR2(50) NOT NULL,
 	A_KIND VARCHAR2(50) NOT NULL,
-	A_IMG VARCHAR2(200),
+	A_IMG VARCHAR2(200) NOT NULL,
 	MONEY NUMBER(15),
 	L_DATE VARCHAR2(200) NOT NULL,
 	L_PLACE1 VARCHAR2(200) NOT NULL,
@@ -62,8 +62,8 @@ public class findanimalDto implements Serializable {
 
 	public findanimalDto(int seq, int readcount, String id, String name, String phone, String wdate, String title,
 			String content, int del, String a_name, String a_kind, String a_img, int money, String l_date,
-			String l_place1, String l_place2, String gender)
-	{
+			String l_place1, String l_place2, String gender) {
+		super();
 		this.seq = seq;
 		this.readcount = readcount;
 		this.id = id;
