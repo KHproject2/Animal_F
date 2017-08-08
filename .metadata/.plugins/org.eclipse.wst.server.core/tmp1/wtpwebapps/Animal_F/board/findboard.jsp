@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<a href="../main/main.jsp">MAIN 으로가기</a>
+<a href="../main/index.jsp">MAIN 으로가기</a>
 
 <table width="800" border="1" align="center">
 	<tr align="center">
