@@ -38,6 +38,8 @@ import java.io.Serializable;
 
 public class findanimalDto implements Serializable {
 	
+	
+	private static final long serialVersionUID = -1273516979252823590L;
 	private int seq;			// sequence 번호
 	private int readcount;		// 조회수
 	

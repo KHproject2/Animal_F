@@ -38,6 +38,8 @@ import java.io.Serializable;
 
 public class findcommentDto implements Serializable {
 
+	
+	private static final long serialVersionUID = 3128058223610375373L;
 	int seq;			// 댓글 고유번호
 	String id;			// 작성자 아이디
 	String name;		// 작성자 이름
