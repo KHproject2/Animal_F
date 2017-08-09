@@ -1,3 +1,16 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=00f65e6d149c81c2c84da8f7ce67a820ab27e3f8
 eclipse.preferences.version=1
+<<<<<<< HEAD
 org.eclipse.jdt.launching.PREF_DEFAULT_ENVIRONMENTS_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<defaultEnvironments>\r\n<defaultEnvironment environmentId\="JavaSE-1.7" vmId\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1501815068337"/>\r\n</defaultEnvironments>\r\n
 org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1502150791034" defaultVMConnector\="">\r\n<vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n<vm id\="1502150791034" name\="dk1.8.0_131" path\="C\:\\Java\\dk1.8.0_131"/>\r\n</vmType>\r\n</vmSettings>\r\n
+=======
+<<<<<<< HEAD
+org.eclipse.jdt.launching.PREF_DEFAULT_ENVIRONMENTS_XML=
+org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1501816084013" defaultVMConnector\="">\r\n<vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n<vm id\="1501816084013" name\="jdk1.8.0_131" path\="C\:\\Program Files\\Java\\jdk1.8.0_131"/>\r\n</vmType>\r\n</vmSettings>\r\n
+=======
+org.eclipse.jdt.launching.PREF_DEFAULT_ENVIRONMENTS_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<defaultEnvironments>\r\n<defaultEnvironment environmentId\="JavaSE-1.7" vmId\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1501815068337"/>\r\n</defaultEnvironments>\r\n
+org.eclipse.jdt.launching.PREF_VM_XML=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<vmSettings defaultVM\="57,org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType13,1502172915024" defaultVMConnector\="">\r\n<vmType id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType">\r\n<vm id\="1502172915024" name\="jdk1.8.0_131" path\="C\:\\Java\\jdk1.8.0_131"/>\r\n</vmType>\r\n</vmSettings>\r\n
+>>>>>>> b5d448c78bb2560ff127ab8ca0c47af4ad6ec046
+>>>>>>> 2c5db7d1429a81399de3253d8dec0e254c089464
