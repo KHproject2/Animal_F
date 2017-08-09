@@ -3,11 +3,12 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
     pageEncoding="EUC-KR"%>
 <%
-MemberDao dao = MemberDao.getInstance();
+/* 	MemberDao dao = MemberDao.getInstance();
 	String checkid = request.getParameter("checkid");
 	boolean check = dao.check(checkid);
 	System.out.println(check); 
-%>
+ */
+ %>
 <%--
 	MemberDao dao = MemberDao.getInstance();
 	String checkid = request.getParameter("checkid");
@@ -30,4 +31,4 @@ MemberDao dao = MemberDao.getInstance();
 	
 	}
 --%>
-<%=check %>
+<%="check" %>

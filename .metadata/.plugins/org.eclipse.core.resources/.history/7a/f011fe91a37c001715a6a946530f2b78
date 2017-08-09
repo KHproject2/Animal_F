@@ -1,0 +1,10 @@
+<%@page import="Member.MemberDao"%>
+
+<%
+ 	MemberDao dao = MemberDao.getInstance();
+	String checkid = request.getParameter("checkid");
+	boolean check = dao.check(checkid);
+	System.out.println(check); 
+
+%>
+<%=check %>

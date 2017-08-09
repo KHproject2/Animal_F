@@ -5,15 +5,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<!-- <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script> -->
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
+<script type="text/javascript" src="<%=request.getContextPath()%>/jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/jquery/jquery-ui.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/jquery/jquery.cookie.js"></script>
+
 <script src="http://dmaps.daum.net/map_js_init/postcode.v2.js"></script>
 <!-- 우편주소 -->
 <title>Insert title here</title>
 <style type="text/css">
     *{margin:0;padding:0}
-		html,body{height:100%}`
+		html,body{height:100%}
 		body{display:table;width:100%}
 	</style>
 </head>
@@ -192,18 +195,23 @@
 		$("#id_check").click(function(){
 				var idcheck =false;
 			$.ajax({
-				type:"post",
-				url:"../login/idcheck.jsp",
+				type:"get",
+				/* url:"../login/idcheck.jsp",  */
+				url:"../login/NewFile.jsp", 
+				async:true,
 				data:{
 					checkid:$('#id').val(),
 				},
 				success:function(data){
+					alert("success");
 					if(data.trim() == "true"){
 						alert("중복된 ID");
 					}else{
 						alert("사용가능 ID");
-					}
-					
+					}					
+				},
+				error:function(){
+					alert("error");
 				}
 			});
 		});

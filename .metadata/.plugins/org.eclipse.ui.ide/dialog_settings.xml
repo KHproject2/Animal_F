@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="E:\animal_F\Animal_F"/>
 		<item value="C:\Users\HAN\Desktop\khproject\Animal_F"/>
 	</list>
 	<section name="ExternalProjectImportWizard">
@@ -9,8 +10,11 @@
 		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
 			<item value=""/>
+			<item value="C:\Users\user1\Desktop\Animal_F"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\user1\Documents\카카오톡 받은 파일\animal_F.zip"/>
+			<item value=""/>
 			<item value="C:\Users\HAN\Desktop\Animal_F2.zip"/>
 		</list>
 	</section>
