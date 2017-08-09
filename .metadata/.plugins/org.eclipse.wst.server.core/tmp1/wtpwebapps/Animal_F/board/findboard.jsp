@@ -26,7 +26,6 @@
 	<tr align="center">
 		<td>사례금 : </td><td>사례금 : </td><td>사례금 : </td><td>사례금 : </td><td>사례금 : </td>
 	</tr>
-	
 </table>
 </body>
 </html>

@@ -2,12 +2,17 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
+<<<<<<< HEAD
 		<item value="FINDCOMMENT" key="selection"/>
+=======
+		<item value="sc" key="selection"/>
+>>>>>>> 75b7629692539c3280cf9900f83c838bd826ace9
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+<<<<<<< HEAD
 			<item value="FBCOMMENT"/>
 			<item value="varchar"/>
 		</list>
@@ -15,6 +20,13 @@
 			<item value="FINDCOMMENT"/>
 			<item value="SAVECOMMENT"/>
 			<item value="varchar2"/>
+=======
+			<item value="sc"/>
+			<item value="height"/>
+			<item value="hei"/>
+		</list>
+		<list key="replacehistory">
+>>>>>>> 75b7629692539c3280cf9900f83c838bd826ace9
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
